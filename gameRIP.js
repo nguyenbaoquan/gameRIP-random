@@ -1,5 +1,8 @@
 let getRandomNumber = function (max) {
     let random;
+    // console.log(Math.floor(Math.random() * 10));
+    // console.log(Math.ceil(Math.random() * 10));    
+    
     if (!isNaN(max)) {
         random = Math.random();
         random = Math.floor(random * max);
